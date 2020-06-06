@@ -1,0 +1,16 @@
+body {
+    background-color: lightgrey;
+    color: rgb(17, 44, 66);
+    margin: 1%;
+  }
+  
+header h1.logo {
+background-color: rgb(60, 57, 112);
+color: white;
+position: relative;
+}
+
+p {
+color: navy;
+font-size: 20px;
+ }
