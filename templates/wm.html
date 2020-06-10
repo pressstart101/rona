@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Daily Stat</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1 class="logo">Daily Stat</h1>
+                {{ data | safe }}
+            </div>
+        </header>
+    </body>
+</html>
